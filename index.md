@@ -5,6 +5,10 @@ do well to learn from them. also contribute to making it better. my WhatsApp Num
 
 This is a code written for a 7 segment 4 digit  display  project interfaced with an Arduino nano, the display is built using bright RED LED's. In this project i prefered using the **PLATFORM IO** Extension with **Visual Studio code**. You can still use the regular arduino IDE for this project. 
 
+Click the link to view the project on github. 
+
+[view code here]()
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
