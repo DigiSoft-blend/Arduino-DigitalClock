@@ -7,7 +7,7 @@ This is a code written for a 7 segment 4 digit  display  project interfaced with
 
 Click the link to view the project on github. 
 
-[view code here]()
+[view code here](https://github.com/DigiSoft-blend/Arduino-DigitalClock/blob/main/src/main.cpp)
 
 ### Markdown
 
