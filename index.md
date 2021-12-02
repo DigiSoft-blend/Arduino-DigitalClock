@@ -1,7 +1,9 @@
 ## Hello There, I'm Silas Udofia
 
-You can use the [editor on GitHub](https://github.com/DigiSoft-blend/Arduino-DigitalClock/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I intend on making most of my projects open source both in hardware development and in my web development, hence all my code will be available here on github
+do well to learn from them. also contribute to making it better. my WhatsApp Number ```08160595927```
 
+This is a code written for a 7 segment display project interfaced with an Arduino nano. In this project i prefered using the **PLATFORM IO** Extension with Visual Studio code
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
