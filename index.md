@@ -7,9 +7,9 @@ This is a code written for a 7 segment 4 digit  display  project interfaced with
 
 Click the link to view the project on github. 
 
-[view code here](https://github.com/DigiSoft-blend/Arduino-DigitalClock/blob/main/src/main.cpp)
+[view project here](https://github.com/DigiSoft-blend/Arduino-DigitalClock/blob/main/src/main.cpp)
 
-### Markdown
+### The main.cpp code is shown below. Feel free to copy this code to your arduino sketches, make changes as suits your specifications. Note you wouldnt need to include the ```<Arduino.h>``` file when working with the regular Arduino IDE.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
