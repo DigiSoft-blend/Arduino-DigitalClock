@@ -11,7 +11,6 @@ Click the link to view the project on github.
 
 ### The main.cpp code is shown below. Feel free to copy this code to your arduino sketches, make changes as suits your specifications. Note you wouldnt need to include the ```<Arduino.h>``` file when working with the regular Arduino IDE.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 
