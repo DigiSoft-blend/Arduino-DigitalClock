@@ -32,9 +32,10 @@ Click the link to view the project on github.
   by Udofia Silas Silas
  
 
-  This example code is in the private domain.
+  This example code is in the public domain.
   
 */
+// LED cathode i/o numbers on the Arduino Nano
 
 #define cath_a 2
 #define cath_b 3
@@ -43,13 +44,17 @@ Click the link to view the project on github.
 #define cath_e 6
 #define cath_f 7
 #define cath_g 8
-/////////////////////////////////////////////////////////
+
+// LED anode i/o numbers on the Arduino Nano
+
 #define anod_1 9
 #define anod_2 10
 #define anod_3 11
 #define anod_4 12
 #define anod_5 13 // seconds led
-//////////////////////////////////////////////////////////
+
+//init 7 segment display pins as OUTPUT pins
+
 void init_7seg()
 {
   pinMode(cath_a , OUTPUT);
@@ -69,11 +74,16 @@ void init_7seg()
 
 //////////////////////////////////////////////////////
 
-const byte segmentPins[] = {cath_a,cath_b,cath_c,cath_d,cath_e,cath_f,cath_g,};
-const byte digitPins[]={anod_1, anod_2, anod_3, anod_4, anod_5};
+const byte segmentPins[] = {cath_a,cath_b,cath_c,cath_d,cath_e,cath_f,cath_g,};//array store the cathode pin number
+const byte digitPins[]={anod_1, anod_2, anod_3, anod_4, anod_5};//array store the anode pin number
+
+//global variables
+
 int c;
 int i;
+
 //time variables
+
 long count;
 int sec ;
 int mins = 59;
@@ -89,6 +99,9 @@ unsigned long previousMillis = 0;        // will store last time LED was updated
 // constants won't change:
 const long interval = 1000;           // interval at which to blink (milliseconds)
 //////////////////////////////////////////////////////////////////////////////////////////
+
+//Function declarations, Required when working with **Platform io**
+
 void start_timer();
 void print_char(char a, short b);
 void display_num(int num);
@@ -99,6 +112,8 @@ void print_b(int num, int del);
 void clock_min(int a);
 void clock_hour(int a);
 
+//Arduino setup
+
 void setup() {
  init_7seg();
 }
@@ -106,10 +121,7 @@ void setup() {
 ////////////////////////////////////////////////////////////////////////////////////////
 
 void loop() {
- // start_counter(500);
     start_timer();
-  // OPEN(0);
- 
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
