@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Hello There, I'm Silas Udofia
 
 You can use the [editor on GitHub](https://github.com/DigiSoft-blend/Arduino-DigitalClock/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
